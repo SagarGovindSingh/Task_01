@@ -1,0 +1,42 @@
+html{
+    background-color: violet;
+}
+body{
+    background-color:red;
+    margin: 0 auto;
+    padding: 0 20px 20px 20px;
+    width: 600px;
+    border: 5px solid black;
+}
+img {
+    display: block;
+    margin: 0 auto;
+  }
+h1{
+    color: blue;
+    margin: 0;
+    padding: 20px 0;
+    text-shadow: 1px 1px 1px black;
+}
+/* li{
+    list-style-type: none;
+} */
+
+.special{
+    color: blue;
+    font-size: large;
+}
+
+a:link{
+    color: green
+}
+a:visited{
+    color:grey
+}
+a:hover{
+    color: honeydew;
+}
+
+body ul + li .change{
+    font-style: italic;
+}
